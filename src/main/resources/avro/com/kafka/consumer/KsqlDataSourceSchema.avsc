@@ -1,0 +1,69 @@
+{
+  "fields": [
+    {
+      "default": null,
+      "name": "TITLE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "AUTHORS",
+      "type": [
+        "null",
+        {
+          "items": [
+            "null",
+            "string"
+          ],
+          "type": "array"
+        }
+      ]
+    },
+    {
+      "default": null,
+      "name": "PUBLISHER",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "PUBLISHEDDATE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "PAGECOUNT",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "AVERAGERATING",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "RATINGSCOUNT",
+      "type": [
+        "null",
+        "double"
+      ]
+    }
+  ],
+  "name": "KsqlDataSourceSchema",
+  "namespace": "io.confluent.ksql.avro_schemas",
+  "type": "record"
+}
